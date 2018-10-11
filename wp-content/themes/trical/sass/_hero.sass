@@ -1,0 +1,128 @@
+.hero
+    position: relative
+    height: 680px
+    width: 100%
+    overflow: hidden
+    justify-content: flex-start
+    @media (max-width: 760px)
+        display: none!important
+    .heroimg
+        position: absolute
+        top: 0px
+        right: 0px
+        background: url("../img/img_banner.jpg")
+        height: 100%
+        width: 120%
+        background-size: cover
+        background-repeat: no-repeat
+        margin-top: -75px
+    .herotxt
+        position: absolute
+        z-index: 5
+        display: flex
+        flex-direction: column      
+        left: -600px
+        top: 30%
+        color: white
+        .call
+            line-height: 10px
+            background: $verde2
+            width: 583px
+            font-size: 20px
+            font-weight: 300
+            transform: skewX(-20deg)
+            @media (max-width: 760px)
+                width: 400px
+                line-height: 35px
+                transform: skewX(0deg)
+                padding: 10px 20px
+            h2
+                padding-left: 50px
+                font-weight: 300
+                transform: skewX(20deg)
+                text-align: start
+                text-transform: uppercase
+                @media (max-width: 760px)
+                    transform: skewX(0deg)
+                    margin: 5px 20px
+                    text-align: center
+                    padding: 5px 12px
+            h2:nth-child(1)
+                margin-left: -13px
+                @media (max-width: 760px)
+                    margin-left: 0px
+
+        .bajada
+            margin: 20px 0px
+            margin-left: 50px
+            width: 415px
+            font-size: 16px
+            font-weight: 300
+            text-align: justify
+            @media (max-width: 760px)
+                width: 300px
+        .explica
+            margin-left: 50px
+            width: 380px
+            font-size: 13px
+            font-weight: 200
+            text-align: justify
+            @media (max-width: 760px)
+                width: 300px
+            span
+                color: $verde1
+                text-align: start
+
+.heromovil
+    display: none!important
+    @media (max-width: 760px)
+        display: flex!important
+        position: relative
+        height: 921px
+        background-repeat: no-repeat!important
+        background-size: contain!important
+        background: url("../img/img_banner-movil2.jpg")
+        margin-bottom: -300px
+    @media (max-width: 320px)
+        background-size: contain!important
+        background: url("../img/img_banner-movil.jpg")
+        height: 700px
+        background-repeat: no-repeat
+    .textomovil
+        position: absolute
+        top: 41%
+        @media (max-width: 760px)
+            margin-top: -99px
+        @media (max-width: 320px)
+            margin-top: -25px
+        .callmovil
+            background: $verde2
+            color: white
+            text-align: center
+            line-height: 31px
+            padding: 6px
+           
+        .bajadamovil
+            font-size: 15px
+            color: white
+            text-align: center
+            padding: 12px
+        .explicamovil
+            color: white
+            text-align: center
+            padding: 12px
+            font-size: 14px
+
+
+//  <div class="heromovil">
+//             <div class="callmovil">
+//                 <h2>Con Trical limpiamos para</h2>
+//                 <h2> fortalecer y dar vida a tu suelo</h2>
+//             </div>
+//             <div class="bajadamovil">
+//             REALIZAMOS UN CONTROL INTEGRADO DE PLAGAS Y ENFERMEDADES, SIENDO UN APORTE BIONUTRICIONAL A TU CULTIVO.
+//             </div>
+//             <div class="explicamovil">
+//             Nuestro propósito es dejar el suelo con las condiciones óptimas de salud y sanidad, a fin de que obtengas <span> la mejor producción de tus cultivos. </span>
+//             </div>
+//     </div>

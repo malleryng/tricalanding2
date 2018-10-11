@@ -1,0 +1,61 @@
+.contacto
+    display: flex
+    flex-direction: row
+    .informacion
+        width: 40%
+        flex-direction: row
+        align-items: center
+        img 
+            width: 120px
+        .textoinfo
+            border-left: 2px solid
+            color: #777776
+            p
+                margin-left: 20px
+
+    .formulario
+        flex-direction: column
+        align-items: center
+        margin-top: 20px
+        margin-bottom: 20px
+        .wpcf7-form
+            width: 500px
+            @media (max-width: 760px)
+                width: auto
+                margin-left: 30px
+        .contTit
+            margin-top: -20px
+            font-size: 30px
+            color: gray
+            text-align: center
+        input, textarea
+            width: 90%
+            height: 30px
+            margin-bottom: 2px
+            padding: 5px
+            margin-top: 2px
+            font-size: 12px
+            border: 1px solid #ccc
+            border-radius: 0px!important
+            background: rgba(204,204,204,0.2)
+            text-transform: capitalize
+            @media (max-width: 760px)
+                width: 90%
+                height: 40px
+                font-size: 17px
+        textarea
+            height: 170px
+        input[type="submit"]
+            background: #DCB900
+            color: black
+            text-transform: uppercase
+            height: 46px
+            border-radius: 4px
+            border: 0px
+            width: 464px
+            @media (max-width: 760px)
+                width: 93%
+        // <div class="contacto">
+    //     <div class="contTit">CONTÁCTANOS</div>
+    
+    // </div>

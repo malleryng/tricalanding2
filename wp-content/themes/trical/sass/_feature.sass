@@ -1,0 +1,66 @@
+.infografia
+    background-image: url(../img/fondoinfografia.jpg)
+.features
+    flex-direction: column
+    width: 99%
+    @media (max-width: 760px)
+        width: 97%
+  
+    .featTit
+        font-size: 32px
+        text-align: center
+        color: $verde1
+        margin-top: -36px
+        margin-bottom: 45px
+        @media (max-width: 760px)
+            margin-top: 25px
+    .feat3
+        display: flex
+        justify-content: space-around
+        width: 90%
+        @media (max-width: 760px)
+            flex-direction: column
+            align-items: center
+        .ef
+            display: flex
+            align-items: center
+            flex-direction: column
+            width: 32%
+            img
+                width: 100px
+                height: 100px
+            p
+                text-align: center
+                font-size: 16px
+                color: gray
+                width: 214px
+                span
+                    font-size: 12px
+    .featBaj
+        background: $verde2
+        color: white
+        font-size: 35px
+        width: 97%
+        text-align: center
+        padding: 21px
+        
+        
+
+        // <div class="features">
+    //     <div class="featTit"> 3 IMPORTANTES BENEFICIOS DE LA FUMIGACIÓN TRICAL </div>
+    //     <div class="feat3">
+    //         <div class="ef1">
+    //             <img src="<?php echo get_template_directory_uri() . '/img/icon_1.png' ?>"  alt="">
+    //             <p>Efecto Fertilizante</p>
+    //         </div> <!-- ef1 -->
+    //         <div class="ef2">
+    //             <img src="<?php echo get_template_directory_uri() . '/img/icon_2.png' ?>" alt="">
+    //             <p>Incrementa actividad biológica del suelo</p>
+    //         </div> <!-- ef2 -->
+    //         <div class="ef3">
+    //             <img src="<?php echo get_template_directory_uri() . '/img/icon_3.png' ?>" alt="">
+    //             <p>Detiene temporalmente los procesos de nitrificación</p>
+    //         </div> <!-- ef3 -->
+    //     <div class="featBaj">¿PRONTO A PREPARAR TU CULTIVO?</div>
+    //     </div>
+    // </div> <!-- features -->

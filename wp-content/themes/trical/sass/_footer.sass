@@ -1,0 +1,45 @@
+footer
+    background: $verde2
+    width: 100%
+    padding: 30px 0px
+    justify-content: space-around!important
+    @media (max-width: 760px)
+        flex-direction: column
+        justify-content: center
+    .trical, .mapa, .email
+        display: flex
+        justify-content: space-between
+        align-items: center
+        @media (max-width: 760px)
+            padding: 30px 0px
+            flex-direction: column
+            justify-content: center
+            align-items: center
+        img
+            width: 57px
+            height: 57px
+        p
+            color: white
+            font-size: 16px
+            margin-left: 10px
+            @media (max-width: 760px)
+                text-align: center
+        a
+            text-decoration: none
+    .trical > img
+        width: 76px
+    
+        // <footer>
+    // <div class="trical">
+    //     <img src="<?php echo get_template_directory_uri() . '/img/logoTricalFooter.png' ?>"  alt="">
+    //     <p>EXPERTOS EN FUMIGACIÓN <br> Y SALUD DEL SUELO</p>
+    // </div> <!-- trical -->
+    // <div class="mapa">
+    //     <img src="<?php echo get_template_directory_uri() . '/img/mundo.png' ?>"  alt="">
+    //     <p>Más de 60 años de experiencia <br> desde EEUU al mundo.</p>
+    // </div> <!-- mapa -->
+    // <div class="email">
+    //     <img src="<?php echo get_template_directory_uri() . '/img/email.png' ?>"  alt="">
+    //     <p>consultas@trical.cl</p>
+    // </div> <!-- email -->
+    // </footer>
