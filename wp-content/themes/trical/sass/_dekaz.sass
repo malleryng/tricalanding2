@@ -1,0 +1,36 @@
+.dekaz
+    background: $verde1
+    width: 100%
+    +flexbox(center,center,column)
+    margin: 0px
+    padding: 0px
+    .contenedor
+        +flexbox(flex-end,center,row)
+        width: 100%
+        height: 30px
+        @media (max-width: 760px)
+            width: 90%
+        a
+            +flexbox(center,center,row)
+            img
+                +anchoalto(auto,18px)
+                // &:hover
+                //     animation: spin 1s infinite linear
+            p
+                color: white
+                margin: 0px
+                padding: 0px
+                font-size: 14px
+            p:nth-child(1)
+                font-size: 12px
+                margin-right: 5px
+
+// <div class="dekaz">
+//     <div class="contenedor">
+//         <a href="http://www.dekaz.cl" target="_blank">
+//             <p> Diseñado por</p>
+//             <img class="" src="<?php echo get_template_directory_uri() . '/img/isodk.svg' ?>" alt=""> 
+//             <p>Dekaz</p>
+//         </a>
+//     </div> <!-- contenedor -->
+// </div> <!-- dekaz -->

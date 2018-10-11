@@ -12,39 +12,51 @@
     <div class="hero">
         <div class="heroimg"></div>
         <div class="herotxt">
+            <div class="titulo">
+                <h2>POR MUCHOS AÑOS SE HA PENSADO </h2>
+                <h2>QUE LA FUMIGACIÓN ESTERILIZA EL SUELO</h2>
+            </div>
             <div class="call">
-                <h2>Con Trical limpiamos para</h2>
-                <h2> fortalecer y dar vida a tu suelo</h2>
+                <h2>Hoy Trical rompe estos paradigmas</h2>
+                <h2>con la serie Triform</h2>
             </div>
             <div class="bajada">
-            REALIZAMOS UN CONTROL INTEGRADO DE PLAGAS Y ENFERMEDADES, SIENDO UN APORTE BIONUTRICIONAL A TU CULTIVO.
-            </div>
-            <div class="explica">
-            Nuestro propósito es dejar el suelo con las condiciones óptimas de salud y sanidad, a fin de que obtengas <span> la mejor producción de tus cultivos. </span>
+            Nuestro objetivo es eliminar los efectos de las sustancias alelopáticas, erradicando del suelo nemátodos fitoparásitos, hongos y bacterias fitopatógenas para el control de plagas y enfermedades.
             </div>
         </div> <!-- herotext -->
     </div> <!-- hero -->
     <div class="heromovil">
             <div class="textomovil">
+                <div class="titulomovil">
+                    <!-- <h3>POR MUCHOS AÑOS SE HA PENSADO </h3> -->
+                    <h3>POR MUCHOS AÑOS SE HA PENSADO <br>QUE LA FUMIGACIÓN ESTERILIZA EL SUELO</h3>
+                </div>
                 <div class="callmovil">
-                    <h2>Con Trical limpiamos para fortalecer y dar vida a tu suelo</h2>
+                    <h2>Hoy Trical rompe estos paradigmas</h2> <h3>con la serie Triform</h3>
                 </div>
                 <div class="bajadamovil">
-                REALIZAMOS UN CONTROL INTEGRADO DE PLAGAS Y ENFERMEDADES, SIENDO UN APORTE BIONUTRICIONAL A TU CULTIVO.
-                </div>
-                <div class="explicamovil">
-                Nuestro propósito es dejar el suelo con las condiciones óptimas de salud y sanidad, a fin de que obtengas <span> la mejor producción de tus cultivos. </span>
+                Nuestro objetivo es eliminar los efectos de las sustancias alelopáticas, erradicando del suelo nemátodos fitoparásitos, hongos y bacterias fitopatógenas para el control de plagas y enfermedades.
                 </div>
             </div> <!-- textomovil -->
     </div>
-
+    <div class="tituloinfografia">
+        <h2>La Fumigación del suelo ¿Cómo funciona?</h2>
+    </div>
     <div class="infografia">
-    <img class="" src="<?php echo get_template_directory_uri() . '/img/infografia.jpg' ?>" alt=""> 
+        <img class="" src="<?php echo get_template_directory_uri() . '/img/infografia.jpg' ?>" alt=""> 
     </div>
 
-    <div class="features">
-        <div class="featBaj"><p>No esterilices tu suelo al fumigarlo</p>  <p>conoce la serie triform de Trical</p> </div>
+    <div class="my-slider">
+        <div><img class="" src="<?php echo get_template_directory_uri() . '/img/slideuno.jpg' ?>" alt=""> </div>
+        <div><img class="" src="<?php echo get_template_directory_uri() . '/img/slidedos.jpg' ?>" alt=""></div>
+        <div><img class="" src="<?php echo get_template_directory_uri() . '/img/slidetres.jpg' ?>" alt=""></div>
+    </div>
+    <!-- or ul.my-slider > li -->
+
+     <div class="features">
+        <div class="featBaj"><p>No esterilices tu suelo al fumigarlo</p>  <h3>conoce la serie triform de Trical</h3> </div>
     </div> <!-- features -->
+
     <div class="contacto">
         <div class="informacion">
         <img class="" src="<?php echo get_template_directory_uri() . '/img/compromiso.svg' ?>" alt=""> 
@@ -76,6 +88,17 @@
         <p>consultas@trical.cl</p>
     </a> <!-- email -->
     </footer>
+
+    <div class="dekaz">
+    <div class="contenedor">
+        <a href="http://www.dekaz.cl" target="_blank">
+            <p> Diseñado por</p>
+            <img class="" src="<?php echo get_template_directory_uri() . '/img/isodk.svg' ?>" alt=""> 
+            <p>Dekaz</p>
+        </a>
+    </div> <!-- contenedor -->
+</div> <!-- dekaz -->
+
 </div>
 </body>
 <?php wp_footer() ?>

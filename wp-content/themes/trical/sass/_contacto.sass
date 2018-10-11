@@ -1,18 +1,26 @@
 .contacto
-    display: flex
-    flex-direction: row
+    +flexbox(center,center,column)
+    width: 100%
+    margin: 50px 0px
+    @media (max-width: 760px)
+        flex-direction: column
+        margin: 0px 0px
     .informacion
-        width: 40%
-        flex-direction: row
+        +flexbox(center,center,row)
         align-items: center
+        margin: 100px
+        @media (max-width: 760px)
+            margin: 50px 0px
         img 
             width: 120px
+            float: left
+            margin-right: 15px
         .textoinfo
             border-left: 2px solid
             color: #777776
+            float: left
             p
                 margin-left: 20px
-
     .formulario
         flex-direction: column
         align-items: center

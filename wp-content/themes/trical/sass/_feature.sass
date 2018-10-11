@@ -1,11 +1,27 @@
+.tituloinfografia
+    height: 120px
+    width: 100%
+    @media (max-width: 760px)
+        width: 90%
+    h2
+        color: $verde2
+        font-size: 33px
+        @media (max-width: 760px)
+            font-size: 25px
+            text-align: center
 .infografia
     background-image: url(../img/fondoinfografia.jpg)
+    width: 100%
+    @media (max-width: 760px)
+        display: none
+        img
+            @media (max-width: 760px)
+            display: none
 .features
     flex-direction: column
-    width: 99%
+    width: 100%
     @media (max-width: 760px)
-        width: 97%
-  
+        width: 100%
     .featTit
         font-size: 32px
         text-align: center
@@ -34,17 +50,25 @@
                 font-size: 16px
                 color: gray
                 width: 214px
+                line-height: px
                 span
                     font-size: 12px
-    .featBaj
-        background: $verde2
-        color: white
-        font-size: 35px
-        width: 97%
-        text-align: center
-        padding: 21px
-        
-        
+.featBaj
+    background: $verde2
+    color: white
+    font-size: 35px
+    width: 100%
+    text-align: center
+    line-height: 0
+    @media (max-width: 760px)
+        width: 100%
+        line-height: 0px
+        padding: 17px 0px
+        // display: none!important
+        h3
+            font-size: 22px
+        p
+            font-size: 18px
 
         // <div class="features">
     //     <div class="featTit"> 3 IMPORTANTES BENEFICIOS DE LA FUMIGACIÓN TRICAL </div>

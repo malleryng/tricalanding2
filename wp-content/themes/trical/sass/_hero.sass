@@ -1,6 +1,6 @@
 .hero
     position: relative
-    height: 680px
+    height: 555px
     width: 100%
     overflow: hidden
     justify-content: flex-start
@@ -15,19 +15,22 @@
         width: 120%
         background-size: cover
         background-repeat: no-repeat
-        margin-top: -75px
     .herotxt
         position: absolute
         z-index: 5
         display: flex
         flex-direction: column      
         left: -600px
-        top: 30%
+        top: 40%
         color: white
+        .titulo
+            h2
+                padding-left: 50px
+                line-height: 10px
         .call
             line-height: 10px
             background: $verde2
-            width: 583px
+            width: 620px
             font-size: 20px
             font-weight: 300
             transform: skewX(-20deg)
@@ -78,30 +81,47 @@
     @media (max-width: 760px)
         display: flex!important
         position: relative
-        height: 921px
+        height: 555px
+        width: 100%
         background-repeat: no-repeat!important
-        background-size: contain!important
+        background-size: cover!important
         background: url("../img/img_banner-movil2.jpg")
-        margin-bottom: -300px
+        img
+            width: 100%
     @media (max-width: 320px)
         background-size: contain!important
         background: url("../img/img_banner-movil.jpg")
         height: 700px
         background-repeat: no-repeat
+        h2
+            padding-left: 50px
+            line-height: 10px
+
     .textomovil
         position: absolute
         top: 41%
+        width: 90%
         @media (max-width: 760px)
-            margin-top: -99px
+            margin-top: 0px
         @media (max-width: 320px)
             margin-top: -25px
+        .titulomovil
+            h3
+                padding-left: 20px
+                line-height: 18px
+                font-size: 16px
+                color: white
         .callmovil
             background: $verde2
             color: white
             text-align: center
-            line-height: 31px
+            line-height: 0px
             padding: 6px
-           
+            h2
+                font-size: 18px
+                
+            h3
+                font-size: 25px
         .bajadamovil
             font-size: 15px
             color: white
@@ -112,17 +132,3 @@
             text-align: center
             padding: 12px
             font-size: 14px
-
-
-//  <div class="heromovil">
-//             <div class="callmovil">
-//                 <h2>Con Trical limpiamos para</h2>
-//                 <h2> fortalecer y dar vida a tu suelo</h2>
-//             </div>
-//             <div class="bajadamovil">
-//             REALIZAMOS UN CONTROL INTEGRADO DE PLAGAS Y ENFERMEDADES, SIENDO UN APORTE BIONUTRICIONAL A TU CULTIVO.
-//             </div>
-//             <div class="explicamovil">
-//             Nuestro propósito es dejar el suelo con las condiciones óptimas de salud y sanidad, a fin de que obtengas <span> la mejor producción de tus cultivos. </span>
-//             </div>
-//     </div>
