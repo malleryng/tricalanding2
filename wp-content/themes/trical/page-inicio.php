@@ -54,7 +54,7 @@
     <!-- or ul.my-slider > li -->
 
      <div class="features">
-        <div class="featBaj"><p>No esterilices tu suelo al fumigarlo</p>  <h3>conoce la serie triform de Trical</h3> </div>
+        <div class="featBaj"> <h3>Conoce la serie triform de Trical</h3> </div>
     </div> <!-- features -->
 
     <div class="contacto">
