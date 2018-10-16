@@ -32,7 +32,7 @@
                     <h3>POR MUCHOS AÑOS SE HA PENSADO <br>QUE LA FUMIGACIÓN ESTERILIZA EL SUELO</h3>
                 </div>
                 <div class="callmovil">
-                    <h2>Hoy Trical rompe estos paradigmas</h2> <h3>con la serie Triform</h3>
+                    <h2>Hoy Trical rompe <br> estos paradigmas con la</h2> <h3>serie Triform</h3>
                 </div>
                 <div class="bajadamovil">
                 Nuestro objetivo es eliminar los efectos de las sustancias alelopáticas, erradicando del suelo nemátodos fitoparásitos, hongos y bacterias fitopatógenas para el control de plagas y enfermedades.
@@ -61,7 +61,7 @@
         <div class="informacion">
         <img class="" src="<?php echo get_template_directory_uri() . '/img/compromiso.svg' ?>" alt=""> 
         <div class="textoinfo">
-            <p>Nuestros productos <br>  No alteran el equilibrio <br> De los microorganismos <br> Benéficos del suelo</p>
+            <p>Nuestros productos <br>  no alteran el equilibrio <br> de los microorganismos <br> benéficos del suelo</p>
         </div>
 
         </div>
@@ -93,7 +93,6 @@
     <div class="contenedor">
         <a href="http://www.dekaz.cl" target="_blank">
             <p> Diseñado por</p>
-            <img class="" src="<?php echo get_template_directory_uri() . '/img/isodk.svg' ?>" alt=""> 
             <p>Dekaz</p>
         </a>
     </div> <!-- contenedor -->

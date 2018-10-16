@@ -89,9 +89,9 @@
         img
             width: 100%
     @media (max-width: 320px)
-        background-size: contain!important
+        background-size: cover!important
         background: url("../img/img_banner-movil.jpg")
-        height: 700px
+        height: 550px
         background-repeat: no-repeat
         h2
             padding-left: 50px
@@ -111,17 +111,27 @@
                 line-height: 18px
                 font-size: 16px
                 color: white
+                @media (max-width: 320px)
+                    padding-left: 20px
+                    font-size: 14px
         .callmovil
             background: $verde2
             color: white
             text-align: center
-            line-height: 0px
             padding: 6px
             h2
                 font-size: 18px
+                line-height: 20px
+                @media (max-width: 320px)
+                    padding-left: 0px
+                    font-size: 18px
+        .callmovil
                 
             h3
                 font-size: 25px
+                line-height: 0px
+                margin: 0px 0px 20px
+    
         .bajadamovil
             font-size: 15px
             color: white

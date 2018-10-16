@@ -95,9 +95,9 @@
         width: 100%; } }
   @media (max-width: 320px) {
     .heromovil {
-      background-size: contain !important;
+      background-size: cover !important;
       background: url("../img/img_banner-movil.jpg");
-      height: 700px;
+      height: 550px;
       background-repeat: no-repeat; }
       .heromovil h2 {
         padding-left: 50px;
@@ -117,16 +117,26 @@
       line-height: 18px;
       font-size: 16px;
       color: white; }
+      @media (max-width: 320px) {
+        .heromovil .textomovil .titulomovil h3 {
+          padding-left: 20px;
+          font-size: 14px; } }
     .heromovil .textomovil .callmovil {
       background: #005222;
       color: white;
       text-align: center;
-      line-height: 0px;
       padding: 6px; }
       .heromovil .textomovil .callmovil h2 {
-        font-size: 18px; }
-      .heromovil .textomovil .callmovil h3 {
-        font-size: 25px; }
+        font-size: 18px;
+        line-height: 20px; }
+        @media (max-width: 320px) {
+          .heromovil .textomovil .callmovil h2 {
+            padding-left: 0px;
+            font-size: 18px; } }
+    .heromovil .textomovil .callmovil h3 {
+      font-size: 25px;
+      line-height: 0px;
+      margin: 0px 0px 20px; }
     .heromovil .textomovil .bajadamovil {
       font-size: 15px;
       color: white;
@@ -211,12 +221,23 @@
   @media (max-width: 760px) {
     .featBaj {
       width: 100%;
-      line-height: 0px;
+      line-height: 3px;
       padding: 17px 0px; }
       .featBaj h3 {
-        font-size: 22px; }
+        font-size: 22px; } }
+    @media (max-width: 760px) and (max-width: 760px) {
+      .featBaj h3 {
+        font-size: 20px; } }
+  @media (max-width: 760px) and (max-width: 760px) and (max-width: 760px) {
+    .featBaj h3 {
+      font-size: 18px; } }
+
+  @media (max-width: 760px) {
       .featBaj p {
         font-size: 18px; } }
+    @media (max-width: 760px) and (max-width: 760px) {
+      .featBaj p {
+        font-size: 16px; } }
 
 .contacto {
   display: flex;
@@ -243,12 +264,19 @@
       width: 120px;
       float: left;
       margin-right: 15px; }
+      @media (max-width: 320px) {
+        .contacto .informacion img {
+          width: 90px;
+          margin: 15px; } }
     .contacto .informacion .textoinfo {
-      border-left: 2px solid;
+      border-left: 1px solid;
       color: #777776;
       float: left; }
       .contacto .informacion .textoinfo p {
         margin-left: 20px; }
+        @media (max-width: 320px) {
+          .contacto .informacion .textoinfo p {
+            font-size: 14px; } }
   .contacto .formulario {
     flex-direction: column;
     align-items: center;
